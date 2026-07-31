@@ -2,45 +2,706 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AKGEC Ghaziabad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kunal Mittal | Student Portfolio</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-    <center>
-        <h1>Ajay Kumar Garg Engineering College</h1>
-        <h2>Ghaziabad, Uttar Pradesh</h2>
-        <hr width="60%">
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
 
-        <img src="1499925698AjayKumarGargEngineeringCollege.png" alt="AKGEC Campus" width="500">
+            <a href="#home" class="logo">
+                Kunal<span>.</span>
+            </a>
 
-        <h3>About AKGEC</h3>
-        <p>
-            Ajay Kumar Garg Engineering College (AKGEC) is one of the leading engineering
-            colleges in Uttar Pradesh. It offers B.Tech, M.Tech, and MCA programmes with
-            modern infrastructure and excellent placement opportunities.
-        </p>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <h3>Courses Offered</h3>
-        <ul style="display:inline-block; text-align:left;">
-            <li>Computer Science & Engineering</li>
-            <li>Information Technology</li>
-            <li>Electronics & Communication</li>
-            <li>Mechanical Engineering</li>
-            <li>Civil Engineering</li>
-        </ul>
+            <div class="nav-buttons">
 
-        <h3>Facilities</h3>
-        <p>Library | Computer Labs | Hostel | Sports | Cafeteria</p>
+                <button id="themeButton" class="icon-button">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
 
-        <br>
+                <button id="menuButton" class="icon-button menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
 
-        <a href="https://www.akgec.ac.in" target="_blank">
-            Visit Official Website
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="hello-text">
+                <i class="fa-solid fa-hand"></i>
+                Hello, I am
+            </p>
+
+            <h1>
+                Kunal <span>Mittal</span>
+            </h1>
+
+            <h2>
+                I am a <span id="typingText"></span>
+            </h2>
+
+            <p class="hero-description">
+                A passionate engineering student interested in
+                Web Development, Artificial Intelligence, and
+                problem-solving. I enjoy building useful and
+                creative digital projects.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-button">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="secondary-button">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="mailto:your@email.com"
+                   aria-label="Email">
+
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Profile Card -->
+        <div class="hero-image">
+
+            <div class="profile-circle">
+
+                <!-- Replace this image with your photo -->
+                <img
+                    src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=600&q=80"
+                    alt="Student Profile">
+
+            </div>
+
+            <div class="floating-card card-one">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <strong>Web Developer</strong>
+                    <small>HTML • CSS • JavaScript</small>
+                </div>
+            </div>
+
+            <div class="floating-card card-two">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                    <strong>B.Tech Student</strong>
+                    <small>Computer Science</small>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="section" id="about">
+
+        <div class="section-heading">
+
+            <p>GET TO KNOW ME</p>
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                    alt="Student working on laptop">
+
+            </div>
+
+            <div class="about-content">
+
+                <h3>
+                    Turning ideas into useful projects.
+                </h3>
+
+                <p>
+                    I am a Computer Science engineering student
+                    with an interest in software development,
+                    web technologies, artificial intelligence,
+                    and data structures.
+                </p>
+
+                <p>
+                    I like learning new technologies and applying
+                    them to real-world problems. My goal is to
+                    become a skilled software developer and build
+                    projects that create value.
+                </p>
+
+                <div class="about-information">
+
+                    <div>
+                        <strong>Name:</strong>
+                        <span>Kunal Mittal</span>
+                    </div>
+
+                    <div>
+                        <strong>Degree:</strong>
+                        <span>B.Tech</span>
+                    </div>
+
+                    <div>
+                        <strong>Branch:</strong>
+                        <span>Computer Science</span>
+                    </div>
+
+                    <div>
+                        <strong>Location:</strong>
+                        <span>Ghaziabad, India</span>
+                    </div>
+
+                </div>
+
+                <a href="#" class="primary-button">
+
+                    Download Resume
+
+                    <i class="fa-solid fa-download"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+
+        <div class="section-heading">
+
+            <p>MY TECHNICAL KNOWLEDGE</p>
+
+            <h2>
+                My <span>Skills</span>
+            </h2>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>HTML</h3>
+
+                <div class="progress-bar">
+                    <div class="progress html-progress">
+                        90%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>CSS</h3>
+
+                <div class="progress-bar">
+                    <div class="progress css-progress">
+                        85%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>JavaScript</h3>
+
+                <div class="progress-bar">
+                    <div class="progress js-progress">
+                        75%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-java"></i>
+
+                <h3>Java</h3>
+
+                <div class="progress-bar">
+                    <div class="progress java-progress">
+                        80%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-python"></i>
+
+                <h3>Python</h3>
+
+                <div class="progress-bar">
+                    <div class="progress python-progress">
+                        75%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>SQL</h3>
+
+                <div class="progress-bar">
+                    <div class="progress sql-progress">
+                        70%
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+
+        <div class="section-heading">
+
+            <p>MY RECENT WORK</p>
+
+            <h2>
+                Featured <span>Projects</span>
+            </h2>
+
+        </div>
+
+        <div class="projects-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+
+                <h3>Amazon Web Clone</h3>
+
+                <p>
+                    A responsive e-commerce website inspired by
+                    Amazon. It includes product sections,
+                    navigation, search design, and a modern UI.
+                </p>
+
+                <div class="technology-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <a href="#">
+
+                    View Project
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-robot"></i>
+
+                </div>
+
+                <h3>AI Campus Assistant</h3>
+
+                <p>
+                    An intelligent assistant designed to help
+                    students find information about courses,
+                    events, notices, and campus services.
+                </p>
+
+                <div class="technology-tags">
+
+                    <span>Python</span>
+                    <span>AI</span>
+                    <span>Database</span>
+
+                </div>
+
+                <a href="#">
+
+                    View Project
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-icon">
+
+                    <i class="fa-solid fa-utensils"></i>
+
+                </div>
+
+                <h3>College Canteen System</h3>
+
+                <p>
+                    A web-based system for viewing food items,
+                    placing orders, and managing college canteen
+                    services efficiently.
+                </p>
+
+                <div class="technology-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <a href="#">
+
+                    View Project
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+
+        <div class="section-heading">
+
+            <p>MY ACADEMIC JOURNEY</p>
+
+            <h2>
+                Education & <span>Experience</span>
+            </h2>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="year">
+                        2024 - Present
+                    </span>
+
+                    <h3>
+                        Bachelor of Technology
+                    </h3>
+
+                    <h4>
+                        Computer Science Engineering
+                    </h4>
+
+                    <p>
+                        Learning programming, web development,
+                        data structures, artificial intelligence,
+                        and software engineering.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="year">
+                        2023 - 2024
+                    </span>
+
+                    <h3>
+                        Senior Secondary Education
+                    </h3>
+
+                    <h4>
+                        Science Stream
+                    </h4>
+
+                    <p>
+                        Studied Mathematics, Physics,
+                        Chemistry, and Computer Science.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+
+        <div class="section-heading">
+
+            <p>LET'S CONNECT</p>
+
+            <h2>
+                Contact <span>Me</span>
+            </h2>
+
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-information">
+
+                <h3>
+                    Have a project or opportunity?
+                </h3>
+
+                <p>
+                    Feel free to contact me. I would be happy
+                    to discuss projects, internships, technology,
+                    or collaboration opportunities.
+                </p>
+
+                <div class="contact-detail">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+
+                        <strong>Email</strong>
+
+                        <span>
+                            your@email.com
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+
+                        <strong>Location</strong>
+
+                        <span>
+                            Ghaziabad, Uttar Pradesh
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                    <div>
+
+                        <strong>Education</strong>
+
+                        <span>
+                            B.Tech Student
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <div class="form-row">
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                    required>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <button type="submit"
+                        class="primary-button">
+
+                    Send Message
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <a href="#home" class="logo">
+            Kunal<span>.</span>
         </a>
 
-        <hr width="60%">
-        <p>&copy; 2026 AKGEC Ghaziabad</p>
-    </center>
+        <p>
+            Designed and developed by Kunal Mittal
+        </p>
+
+        <p>
+            © <span id="currentYear"></span>
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button id="topButton"
+            class="top-button">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
 
 </body>
 </html>
